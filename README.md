@@ -82,7 +82,7 @@ Deep SVDD | 50| 0.0271
 **AUROC: 97.39**
 
 
- ###Logs
+    ###Logs
 ~~~
 Start AUTOENCODER train!
 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:00<00:00, 12.09it/s, epoch=0, train loss=69.3]
@@ -191,7 +191,7 @@ Start testing
 Test AUROC: 97.39
 ~~~
 
- ###Tensorboard result
+    ###Tensorboard result
 ![tensorboard_img](./readme_img/tensorboard_result.png)
 
 # 5. Reference
