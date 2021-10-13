@@ -57,7 +57,7 @@ def get_mnist(args, data_dir='.https://tistory1.daumcdn.net/tistory/0/MobileWeb/
 
     data_train = MNIST_loader(x_train, y_train, transform)
     dataloader_train = DataLoader(data_train, batch_size=args.batch_size,
-                                  shuffle=True, num_workers=0)
+                                  shuffle=True, num_workers=4)
 
     x_test = test.data
     y_test = test.targets
@@ -67,7 +67,7 @@ def get_mnist(args, data_dir='.https://tistory1.daumcdn.net/tistory/0/MobileWeb/
 
     data_test = MNIST_loader(x_test, y_test, transform)
     dataloader_test = DataLoader(data_test, batch_size=args.batch_size,
-                                 shuffle=False, num_workers=0)
+                                 shuffle=False, num_workers=4)
     return dataloader_train, dataloader_test
 
 
