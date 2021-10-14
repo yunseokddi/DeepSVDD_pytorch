@@ -137,6 +137,7 @@ class TrainerDeepSVDD(object):
 
             scheduler.step()
 
+        torch.save(net.state_dict(), './weights/best_weight.pt')
         self.net = net
         self.c = c
 

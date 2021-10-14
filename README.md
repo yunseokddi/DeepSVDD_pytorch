@@ -1,4 +1,4 @@
-Harness anomaly detection trainer code by RESNET152
+Deep one class classification pytorch version
 =============
 
 # 1. How to run?
